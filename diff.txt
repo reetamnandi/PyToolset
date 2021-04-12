@@ -1,0 +1,10 @@
+--- 
++++ 
+@@ -1,5 +1,5 @@
+ Line 1:A
+ Line 2:B
+-Line 3:C
+-Line 4:D
+-Line 5:E+Line 3:D
++Line 4:F
++Line 5:G
