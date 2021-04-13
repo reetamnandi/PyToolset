@@ -1,5 +1,5 @@
---- 
-+++ 
+--- C:\Users\reetam.nandi\Desktop\PyToolset\file1.txt
++++ C:\Users\reetam.nandi\Desktop\PyToolset\file2.txt
 @@ -1,5 +1,5 @@
  Line 1:A
  Line 2:B

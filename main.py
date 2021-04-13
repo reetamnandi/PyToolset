@@ -24,7 +24,8 @@ def compare(ctx, prev, curr, out):
     else:
         file1 = open(prev, "r")
         file2 = open(curr, "r")
-        diff = difflib.unified_diff(file1.readlines(), file2.readlines())
+        diff = difflib.unified_diff(
+            file1.readlines(), file2.readlines(), fromfile=prev, tofile=curr)
         diffFile = open(out, "w")
         diffFile.writelines(diff)
         diffFile.close()
