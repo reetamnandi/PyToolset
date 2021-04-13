@@ -17,7 +17,7 @@ def main(ctx):
 @click.option('--out', '-o', type=click.Path(True, True, False, True, False, True), default='./diff.txt', show_default=True, prompt=True, help="Fully Qualified Path to Diff Output File", required=True)
 @click.pass_context
 def compare(ctx, prev, curr, out):
-    status = filecmp.cmp(prev, curr, out)
+    status = filecmp.cmp(prev, curr)
 
     if(status):
         print("\nFiles are Equal!\n")
